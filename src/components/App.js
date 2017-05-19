@@ -1,6 +1,7 @@
 import React from 'react';
 import PoeClass from './PoeClass.js';
 import { poeClass } from './PoeClassListing.js';
+import { poeKeystone } from './PoeKeystoneListing.js';
 
 class App extends React.Component {
   constructor(){
