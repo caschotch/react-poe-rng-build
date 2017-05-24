@@ -2,97 +2,97 @@ export const poeClass = [
   {
     class: "Witch",
     ascendancy: "Necromancer",
-    images: "images/witch-necromancer.png"
+    images: "images/classes/witch-necromancer.png"
   },
   {
     class: "Witch",
     ascendancy: "Occultist",
-    images: "images/witch-occultist.png"
+    images: "images/classes/witch-occultist.png"
   },
   {
     class: "Witch",
     ascendancy: "Elementalist",
-    images: "images/witch-elementalist.png"
+    images: "images/classes/witch-elementalist.png"
   },
   {
     class: "Duelist",
     ascendancy: "Champion",
-    images: "images/duel-champion.png"
+    images: "images/classes/duel-champion.png"
   },
   {
     class: "Duelist",
     ascendancy: "Gladiator",
-    images: "images/duel-gladiator.png"
+    images: "images/classes/duel-gladiator.png"
   },
   {
     class: "Duelist",
     ascendancy: "Slayer",
-    images: "images/duel-slayer.png"
+    images: "images/classes/duel-slayer.png"
   },
   {
     class: "Marauder",
     ascendancy: "Berserker",
-    images: "images/mar-berserker.png"
+    images: "images/classes/mar-berserker.png"
   },
   {
     class: "Marauder",
     ascendancy: "Chieftain",
-    images: "images/mar-chieftain.png"
+    images: "images/classes/mar-chieftain.png"
   },
   {
     class: "Marauder",
     ascendancy: "Juggernaut",
-    images: "images/mar-juggernaut.png"
+    images: "images/classes/mar-juggernaut.png"
   },
   {
     class: "Ranger",
     ascendancy: "Deadeye",
-    images: "images/ranger-deadeye.png"
+    images: "images/classes/ranger-deadeye.png"
   },
   {
     class: "Ranger",
     ascendancy: "Pathfinder",
-    images: "images/ranger-pathfinder.png"
+    images: "images/classes/ranger-pathfinder.png"
   },
   {
     class: "Ranger",
     ascendancy: "Raider",
-    images: "images/ranger-raider.png"
+    images: "images/classes/ranger-raider.png"
   },
   {
     class: "Shadow",
     ascendancy: "Assassin",
-    images: "images/shad-assasin.png"
+    images: "images/classes/shad-assasin.png"
   },
   {
     class: "Shadow",
     ascendancy: "Saboteur",
-    images: "images/shadow-saboteur.png"
+    images: "images/classes/shadow-saboteur.png"
   },
   {
     class: "Shadow",
     ascendancy: "Trickster",
-    images: "images/shadow-trickster.png"
+    images: "images/classes/shadow-trickster.png"
   },
   {
     class: "Templar",
     ascendancy: "Guardian",
-    images: "images/temp-guardian.png"
+    images: "images/classes/temp-guardian.png"
   },
   {
     class: "Templar",
     ascendancy: "Hierophant",
-    images: "images/temp-hierophant.png"
+    images: "images/classes/temp-hierophant.png"
   },
   {
     class: "Templar",
     ascendancy: "Inquisitor",
-    images: "images/temp-inquisitor.png"
+    images: "images/classes/temp-inquisitor.png"
   },
   {
     class: "Scion",
     ascendancy: "Ascendant",
-    images: "images/scion-ascendant.png"
+    images: "images/classes/scion-ascendant.png"
   }
 ];
 
