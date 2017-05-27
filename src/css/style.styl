@@ -1,11 +1,15 @@
 @require './_*.styl'
+@import url('https://fonts.googleapis.com/css?family=Rufina')
+@import url('https://fonts.googleapis.com/css?family=Oxygen')
 
 .content
   min-height calc(100vh - 100px)
+  background-color rgba(20,20,20,0.75)
+  font-family: 'Oxygen', sans-serif;
 
 body
-  font-family sans-serif
   background-color #222
+  background #000 url(/images/atlas-bg.jpg) no-repeat top
 
 *
   color bronze
@@ -13,6 +17,7 @@ body
 h1
   font-size 1.5em
   line-height 1em
+  font-family: 'Rufina', serif;
 
 h2
   font-size 1.375em
@@ -54,6 +59,7 @@ button
 .poe-class
   margin-left 30%
   font-size 2.5rem
+  font-family: 'Rufina', serif;
   @media screen and (max-width: 769px)
     text-align center
     margin-left 0
@@ -61,7 +67,8 @@ button
 .poe-ascendancy
   text-align right
   margin-right 25%
-  font-size 1.5rem
+  font-size 1.75rem
+  font-family: 'Rufina', serif;
   @media screen and (max-width: 769px)
     text-align center
     margin-right 0
