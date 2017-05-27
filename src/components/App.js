@@ -45,27 +45,31 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container content">
-        <div className="row">
-          <div className="col-6 app-header">
-            <h1>Welcome to the Path of Exile Random Build Generator</h1>
-            <h2>Click it for your next challenge!</h2>
-            <button onClick={this.classSelection}>Good Luck!</button>
-          </div>  
+      <div className="container">
+        <div className="content">
+          <div className="row">
+            <div className="col-6 app-header">
+              <h1>Welcome to the Path of Exile Random Build Generator</h1>
+              <h2>Click it for your next challenge!</h2>
+              <button onClick={this.classSelection}>Good Luck!</button>
+            </div>  
+          </div>
+          <PoeClass poeClass={this.state.poeClass}/>
+          <PoeKeystones poeKeystones={this.state.poeKeystones}/>
+          <PoeSkill poeSkills={this.state.poeSkills}/>
         </div>
-        <PoeClass poeClass={this.state.poeClass}/>
-        <PoeKeystones poeKeystones={this.state.poeKeystones}/>
-        <PoeSkill poeSkills={this.state.poeSkills}/>
-        <div className="row">
-          <div className="col-6 footer">
-            <p>
-              <a href="http://www.pathofexile.com/" target="_blank">Path of Exile</a> content and materials are trademarks and copyrights of Grinding Gear games. All rights reserved.
-              <br />
-              I am not affiliated or associated with <a href="http://www.grindinggear.com/" target="_blank">Grinding Gear Games</a>.
-            </p>
-            <p>
-              Images are from <a href="http://pathofexile.gamepedia.com/Path_of_Exile_Wiki" target="_blank">Path of Exile Wiki</a>.
-            </p>
+        <div className="footer">
+          <div className="row">
+            <div className="col-6">
+              <p>
+                <a href="http://www.pathofexile.com/" target="_blank">Path of Exile</a> content and materials are trademarks and copyrights of Grinding Gear games. All rights reserved.
+                <br />
+                I am not affiliated or associated with <a href="http://www.grindinggear.com/" target="_blank">Grinding Gear Games</a>.
+              </p>
+              <p>
+                Images are from <a href="http://pathofexile.gamepedia.com/Path_of_Exile_Wiki" target="_blank">Path of Exile Wiki</a>.
+              </p>
+            </div>
           </div>
         </div>  
       </div>

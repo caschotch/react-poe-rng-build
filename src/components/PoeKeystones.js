@@ -9,9 +9,8 @@ class PoeKeystones extends React.Component {
   renderKeystones(key){
     const keystones = this.props.poeKeystones[key];
     return (
-      <div key={key} className="col-2">
+      <div key={key} className="col-2 flex-test">
         <h3>{keystones.name}</h3>
-        
         <div className="keystone">
           <img className="keystone-image" src={keystones.images} alt={keystones.name}  />
           <img className="keystone-frame" src="images/keystones/Keystone_passive_frame.png" alt="Keystone Frame Art" />
@@ -27,7 +26,6 @@ class PoeKeystones extends React.Component {
         <div className="row poe-keystones">
           {Object.keys(this.props.poeKeystones).map(this.renderKeystones)}
         </div>
-
     )
   }
 }
